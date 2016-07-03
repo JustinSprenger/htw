@@ -17,6 +17,9 @@ public class Kredit {
 	ztsatz = 0;
 	}
 	
+	/**
+	 * 
+	 */
 	public void setwerte()
 	{
 		System.out.println("Bitte geben Sie die aktuellen Schulden ein:         ");
@@ -27,6 +30,9 @@ public class Kredit {
 		this.tilgung = sc.nextDouble();
 	}
 	
+	/**
+	 * 
+	 */
 	public void showerte()
 	{
 		System.out.println("Dies sind die eingegebenen Werte:");
@@ -37,6 +43,10 @@ public class Kredit {
 		System.out.println("Gebühren:    " + gebuehren + "€");
 	}
 	
+	/**
+	 * 
+	 * @return
+	 */
 	public double brechnen()
 	{
 		schulden = schulden + gebuehren;
