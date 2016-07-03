@@ -44,7 +44,7 @@ public class Kredit {
 	}
 	
 	/**
-	 * 
+	 * horst
 	 * @return
 	 */
 	public double brechnen()
