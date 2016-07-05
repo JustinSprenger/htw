@@ -18,7 +18,7 @@ public class Kredit {
 	}
 	
 	/**
-	 * 
+	 * Testkommentar
 	 */
 	public void setwerte()
 	{
